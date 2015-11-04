@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0491AFB41BD967FD0001C0C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491AFB31BD967FD0001C0C6 /* AppDelegate.swift */; };
+		0491AFB61BD967FD0001C0C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491AFB51BD967FD0001C0C6 /* ViewController.swift */; };
+		0491AFB91BD967FD0001C0C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0491AFB71BD967FD0001C0C6 /* Main.storyboard */; };
+		0491AFBB1BD967FD0001C0C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0491AFBA1BD967FD0001C0C6 /* Assets.xcassets */; };
+		0491AFBE1BD967FD0001C0C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0491AFBC1BD967FD0001C0C6 /* LaunchScreen.storyboard */; };
+		0491AFC91BD967FE0001C0C6 /* CreatonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491AFC81BD967FE0001C0C6 /* CreatonTests.swift */; };
+		0491AFD41BD967FE0001C0C6 /* CreatonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491AFD31BD967FE0001C0C6 /* CreatonUITests.swift */; };
+		0491AFE61BD984270001C0C6 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0491AFE51BD984270001C0C6 /* FBSDKCoreKit.framework */; settings = {ASSET_TAGS = (); }; };
+		0491AFE81BD984310001C0C6 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0491AFE71BD984310001C0C6 /* FBSDKLoginKit.framework */; settings = {ASSET_TAGS = (); }; };
+		0491AFEA1BD99A200001C0C6 /* PreferencesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491AFE91BD99A200001C0C6 /* PreferencesController.swift */; settings = {ASSET_TAGS = (); }; };
+		0491AFEC1BDA05E20001C0C6 /* TabsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491AFEB1BDA05E00001C0C6 /* TabsController.swift */; settings = {ASSET_TAGS = (); }; };
+		0491AFEE1BDA305D0001C0C6 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491AFED1BDA305D0001C0C6 /* TableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		0491AFF01BDA32780001C0C6 /* categoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491AFEF1BDA32780001C0C6 /* categoryController.swift */; settings = {ASSET_TAGS = (); }; };
+		0491AFF21BDA333F0001C0C6 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491AFF11BDA333F0001C0C6 /* NewViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		0491AFF41BDA49880001C0C6 /* TableViewCellD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491AFF31BDA49880001C0C6 /* TableViewCellD.swift */; settings = {ASSET_TAGS = (); }; };
+		0491AFF61BDA49C50001C0C6 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491AFF51BDA49C50001C0C6 /* HomeController.swift */; settings = {ASSET_TAGS = (); }; };
+		0491AFF81BDA50250001C0C6 /* RankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491AFF71BDA50250001C0C6 /* RankViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		0491AFFA1BDA9F0E0001C0C6 /* SolicitudViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491AFF91BDA9F0D0001C0C6 /* SolicitudViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		0491AFFC1BDAB74C0001C0C6 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491AFFB1BDAB74C0001C0C6 /* InfoViewController.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0491AFC51BD967FE0001C0C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0491AFA81BD967FD0001C0C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0491AFAF1BD967FD0001C0C6;
+			remoteInfo = Creaton;
+		};
+		0491AFD01BD967FE0001C0C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0491AFA81BD967FD0001C0C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0491AFAF1BD967FD0001C0C6;
+			remoteInfo = Creaton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0491AFB01BD967FD0001C0C6 /* Creaton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Creaton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0491AFB31BD967FD0001C0C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0491AFB51BD967FD0001C0C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0491AFB81BD967FD0001C0C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0491AFBA1BD967FD0001C0C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0491AFBD1BD967FD0001C0C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0491AFBF1BD967FD0001C0C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0491AFC41BD967FE0001C0C6 /* CreatonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreatonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0491AFC81BD967FE0001C0C6 /* CreatonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatonTests.swift; sourceTree = "<group>"; };
+		0491AFCA1BD967FE0001C0C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0491AFCF1BD967FE0001C0C6 /* CreatonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreatonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0491AFD31BD967FE0001C0C6 /* CreatonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatonUITests.swift; sourceTree = "<group>"; };
+		0491AFD51BD967FE0001C0C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0491AFE51BD984270001C0C6 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		0491AFE71BD984310001C0C6 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		0491AFE91BD99A200001C0C6 /* PreferencesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesController.swift; sourceTree = "<group>"; };
+		0491AFEB1BDA05E00001C0C6 /* TabsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabsController.swift; sourceTree = "<group>"; };
+		0491AFED1BDA305D0001C0C6 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		0491AFEF1BDA32780001C0C6 /* categoryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = categoryController.swift; sourceTree = "<group>"; };
+		0491AFF11BDA333F0001C0C6 /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		0491AFF31BDA49880001C0C6 /* TableViewCellD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellD.swift; sourceTree = "<group>"; };
+		0491AFF51BDA49C50001C0C6 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		0491AFF71BDA50250001C0C6 /* RankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankViewController.swift; sourceTree = "<group>"; };
+		0491AFF91BDA9F0D0001C0C6 /* SolicitudViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolicitudViewController.swift; sourceTree = "<group>"; };
+		0491AFFB1BDAB74C0001C0C6 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0491AFAD1BD967FD0001C0C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0491AFE81BD984310001C0C6 /* FBSDKLoginKit.framework in Frameworks */,
+				0491AFE61BD984270001C0C6 /* FBSDKCoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0491AFC11BD967FE0001C0C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0491AFCC1BD967FE0001C0C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0491AFA71BD967FD0001C0C6 = {
+			isa = PBXGroup;
+			children = (
+				0491AFFB1BDAB74C0001C0C6 /* InfoViewController.swift */,
+				0491AFF91BDA9F0D0001C0C6 /* SolicitudViewController.swift */,
+				0491AFE71BD984310001C0C6 /* FBSDKLoginKit.framework */,
+				0491AFE51BD984270001C0C6 /* FBSDKCoreKit.framework */,
+				0491AFB21BD967FD0001C0C6 /* Creaton */,
+				0491AFC71BD967FE0001C0C6 /* CreatonTests */,
+				0491AFD21BD967FE0001C0C6 /* CreatonUITests */,
+				0491AFB11BD967FD0001C0C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0491AFB11BD967FD0001C0C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0491AFB01BD967FD0001C0C6 /* Creaton.app */,
+				0491AFC41BD967FE0001C0C6 /* CreatonTests.xctest */,
+				0491AFCF1BD967FE0001C0C6 /* CreatonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0491AFB21BD967FD0001C0C6 /* Creaton */ = {
+			isa = PBXGroup;
+			children = (
+				0491AFB31BD967FD0001C0C6 /* AppDelegate.swift */,
+				0491AFB51BD967FD0001C0C6 /* ViewController.swift */,
+				0491AFB71BD967FD0001C0C6 /* Main.storyboard */,
+				0491AFF71BDA50250001C0C6 /* RankViewController.swift */,
+				0491AFF31BDA49880001C0C6 /* TableViewCellD.swift */,
+				0491AFF51BDA49C50001C0C6 /* HomeController.swift */,
+				0491AFEF1BDA32780001C0C6 /* categoryController.swift */,
+				0491AFF11BDA333F0001C0C6 /* NewViewController.swift */,
+				0491AFED1BDA305D0001C0C6 /* TableViewCell.swift */,
+				0491AFEB1BDA05E00001C0C6 /* TabsController.swift */,
+				0491AFE91BD99A200001C0C6 /* PreferencesController.swift */,
+				0491AFBA1BD967FD0001C0C6 /* Assets.xcassets */,
+				0491AFBC1BD967FD0001C0C6 /* LaunchScreen.storyboard */,
+				0491AFBF1BD967FD0001C0C6 /* Info.plist */,
+			);
+			path = Creaton;
+			sourceTree = "<group>";
+		};
+		0491AFC71BD967FE0001C0C6 /* CreatonTests */ = {
+			isa = PBXGroup;
+			children = (
+				0491AFC81BD967FE0001C0C6 /* CreatonTests.swift */,
+				0491AFCA1BD967FE0001C0C6 /* Info.plist */,
+			);
+			path = CreatonTests;
+			sourceTree = "<group>";
+		};
+		0491AFD21BD967FE0001C0C6 /* CreatonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0491AFD31BD967FE0001C0C6 /* CreatonUITests.swift */,
+				0491AFD51BD967FE0001C0C6 /* Info.plist */,
+			);
+			path = CreatonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0491AFAF1BD967FD0001C0C6 /* Creaton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0491AFD81BD967FE0001C0C6 /* Build configuration list for PBXNativeTarget "Creaton" */;
+			buildPhases = (
+				0491AFAC1BD967FD0001C0C6 /* Sources */,
+				0491AFAD1BD967FD0001C0C6 /* Frameworks */,
+				0491AFAE1BD967FD0001C0C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Creaton;
+			productName = Creaton;
+			productReference = 0491AFB01BD967FD0001C0C6 /* Creaton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0491AFC31BD967FE0001C0C6 /* CreatonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0491AFDB1BD967FE0001C0C6 /* Build configuration list for PBXNativeTarget "CreatonTests" */;
+			buildPhases = (
+				0491AFC01BD967FE0001C0C6 /* Sources */,
+				0491AFC11BD967FE0001C0C6 /* Frameworks */,
+				0491AFC21BD967FE0001C0C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0491AFC61BD967FE0001C0C6 /* PBXTargetDependency */,
+			);
+			name = CreatonTests;
+			productName = CreatonTests;
+			productReference = 0491AFC41BD967FE0001C0C6 /* CreatonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0491AFCE1BD967FE0001C0C6 /* CreatonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0491AFDE1BD967FE0001C0C6 /* Build configuration list for PBXNativeTarget "CreatonUITests" */;
+			buildPhases = (
+				0491AFCB1BD967FE0001C0C6 /* Sources */,
+				0491AFCC1BD967FE0001C0C6 /* Frameworks */,
+				0491AFCD1BD967FE0001C0C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0491AFD11BD967FE0001C0C6 /* PBXTargetDependency */,
+			);
+			name = CreatonUITests;
+			productName = CreatonUITests;
+			productReference = 0491AFCF1BD967FE0001C0C6 /* CreatonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0491AFA81BD967FD0001C0C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Luis Conde";
+				TargetAttributes = {
+					0491AFAF1BD967FD0001C0C6 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = U9U793MX49;
+					};
+					0491AFC31BD967FE0001C0C6 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = U9U793MX49;
+						TestTargetID = 0491AFAF1BD967FD0001C0C6;
+					};
+					0491AFCE1BD967FE0001C0C6 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = U9U793MX49;
+						TestTargetID = 0491AFAF1BD967FD0001C0C6;
+					};
+				};
+			};
+			buildConfigurationList = 0491AFAB1BD967FD0001C0C6 /* Build configuration list for PBXProject "Horus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0491AFA71BD967FD0001C0C6;
+			productRefGroup = 0491AFB11BD967FD0001C0C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0491AFAF1BD967FD0001C0C6 /* Creaton */,
+				0491AFC31BD967FE0001C0C6 /* CreatonTests */,
+				0491AFCE1BD967FE0001C0C6 /* CreatonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0491AFAE1BD967FD0001C0C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0491AFBE1BD967FD0001C0C6 /* LaunchScreen.storyboard in Resources */,
+				0491AFBB1BD967FD0001C0C6 /* Assets.xcassets in Resources */,
+				0491AFB91BD967FD0001C0C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0491AFC21BD967FE0001C0C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0491AFCD1BD967FE0001C0C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0491AFAC1BD967FD0001C0C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0491AFF81BDA50250001C0C6 /* RankViewController.swift in Sources */,
+				0491AFEE1BDA305D0001C0C6 /* TableViewCell.swift in Sources */,
+				0491AFF01BDA32780001C0C6 /* categoryController.swift in Sources */,
+				0491AFF21BDA333F0001C0C6 /* NewViewController.swift in Sources */,
+				0491AFEA1BD99A200001C0C6 /* PreferencesController.swift in Sources */,
+				0491AFEC1BDA05E20001C0C6 /* TabsController.swift in Sources */,
+				0491AFF61BDA49C50001C0C6 /* HomeController.swift in Sources */,
+				0491AFB61BD967FD0001C0C6 /* ViewController.swift in Sources */,
+				0491AFF41BDA49880001C0C6 /* TableViewCellD.swift in Sources */,
+				0491AFB41BD967FD0001C0C6 /* AppDelegate.swift in Sources */,
+				0491AFFC1BDAB74C0001C0C6 /* InfoViewController.swift in Sources */,
+				0491AFFA1BDA9F0E0001C0C6 /* SolicitudViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0491AFC01BD967FE0001C0C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0491AFC91BD967FE0001C0C6 /* CreatonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0491AFCB1BD967FE0001C0C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0491AFD41BD967FE0001C0C6 /* CreatonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0491AFC61BD967FE0001C0C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0491AFAF1BD967FD0001C0C6 /* Creaton */;
+			targetProxy = 0491AFC51BD967FE0001C0C6 /* PBXContainerItemProxy */;
+		};
+		0491AFD11BD967FE0001C0C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0491AFAF1BD967FD0001C0C6 /* Creaton */;
+			targetProxy = 0491AFD01BD967FE0001C0C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0491AFB71BD967FD0001C0C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0491AFB81BD967FD0001C0C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0491AFBC1BD967FD0001C0C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0491AFBD1BD967FD0001C0C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0491AFD61BD967FE0001C0C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0491AFD71BD967FE0001C0C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0491AFD91BD967FE0001C0C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Creaton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lconder.Creaton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0491AFDA1BD967FE0001C0C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Creaton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lconder.Creaton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0491AFDC1BD967FE0001C0C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CreatonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lconder.CreatonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Creaton.app/Creaton";
+			};
+			name = Debug;
+		};
+		0491AFDD1BD967FE0001C0C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CreatonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lconder.CreatonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Creaton.app/Creaton";
+			};
+			name = Release;
+		};
+		0491AFDF1BD967FE0001C0C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CreatonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lconder.CreatonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Creaton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0491AFE01BD967FE0001C0C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CreatonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lconder.CreatonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Creaton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0491AFAB1BD967FD0001C0C6 /* Build configuration list for PBXProject "Horus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0491AFD61BD967FE0001C0C6 /* Debug */,
+				0491AFD71BD967FE0001C0C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0491AFD81BD967FE0001C0C6 /* Build configuration list for PBXNativeTarget "Creaton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0491AFD91BD967FE0001C0C6 /* Debug */,
+				0491AFDA1BD967FE0001C0C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0491AFDB1BD967FE0001C0C6 /* Build configuration list for PBXNativeTarget "CreatonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0491AFDC1BD967FE0001C0C6 /* Debug */,
+				0491AFDD1BD967FE0001C0C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0491AFDE1BD967FE0001C0C6 /* Build configuration list for PBXNativeTarget "CreatonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0491AFDF1BD967FE0001C0C6 /* Debug */,
+				0491AFE01BD967FE0001C0C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0491AFA81BD967FD0001C0C6 /* Project object */;
+}
